@@ -1,0 +1,111 @@
+main {
+    background-color: rgb(0, 0, 0)
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+
+  #move-canvas {
+      margin: 10px;
+      padding: 1px;
+  }
+
+  #big-rendered-div {
+      background: lightslategray;
+      
+  }
+  
+  .undo-btn {
+    background: lightslategrey;
+    background-image: url('https://png2.cleanpng.com/sh/bab6249e9281b5bfd2dffa258482b6fb/L0KzQYm3VsA3N6RtR91yc4Pzfri0gB9ueKZ5feQ2aXPyfsS0lf5ld15njeZ9b36wdLFAjvxwaZUye95ycD3kgsW0kvVnepZ4gJ8AYkG6cba4gBJmPZRnSZCEM0e4SYe4UME2Omk3T6oANUa6R4qATwBvbz==/kisspng-computer-icons-undo-button-download-clip-art-refresh-5b17ae1cbe5cb1.9375961015282785567797.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    border: none;
+  }
+  .undo-btn:hover {
+    background: lightslategrey;
+    background-image: url('https://png2.cleanpng.com/sh/bab6249e9281b5bfd2dffa258482b6fb/L0KzQYm3VsA3N6RtR91yc4Pzfri0gB9ueKZ5feQ2aXPyfsS0lf5ld15njeZ9b36wdLFAjvxwaZUye95ycD3kgsW0kvVnepZ4gJ8AYkG6cba4gBJmPZRnSZCEM0e4SYe4UME2Omk3T6oANUa6R4qATwBvbz==/kisspng-computer-icons-undo-button-download-clip-art-refresh-5b17ae1cbe5cb1.9375961015282785567797.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    border: 1px solid blue;
+  }
+
+  .delete-btn {
+    background: lightslategrey;
+    background-image: url('https://png2.cleanpng.com/sh/e937d052f2baa7311693a1aa410485fb/L0KzQYm3VcEyN5Jpj5H0aYP2gLBuTfJia5x4iNNsZT3ndb3slPUuc5ZARdV4bYD4hLb5Tflkd594Rdd3Y3Hzg8bzggRmbF51RadqZkXoSYjqV8QzbZI4RqUANUW4QIm5UcUzPmE7Tac8MkS6RYq1kP5o/kisspng-backspace-delete-key-computer-icons-encapsulated-p-5af5e97c742ea3.3555508215260655324759.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    border: none;
+  }
+  .delete-btn:hover {
+    background: lightslategrey;
+    background-image: url('https://png2.cleanpng.com/sh/e937d052f2baa7311693a1aa410485fb/L0KzQYm3VcEyN5Jpj5H0aYP2gLBuTfJia5x4iNNsZT3ndb3slPUuc5ZARdV4bYD4hLb5Tflkd594Rdd3Y3Hzg8bzggRmbF51RadqZkXoSYjqV8QzbZI4RqUANUW4QIm5UcUzPmE7Tac8MkS6RYq1kP5o/kisspng-backspace-delete-key-computer-icons-encapsulated-p-5af5e97c742ea3.3555508215260655324759.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    border: 1px solid blue;
+  }
+
+  .btn-yellow-brush {
+    background-image: url('https://png2.cleanpng.com/sh/14fbfa53177ee5ecb9a3b92a128f5b1e/L0KzQYm3U8I5N514j5H0aYP2gLBuTglmdJ10j595YXnxhH7pkwV0cF51edt3dD24cbPpUvI0O5M9fNZrMj65R4S4WMg3PGI6SqQ7MUW6Q4KAVcczNqFzf3==/kisspng-yellow-paint-brush-paint-5abb2b33b8ddb2.6731886415222157317572.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    border: none;
+  }
+  .btn-red-brush {
+    background-image: url('https://png2.cleanpng.com/sh/cce463ef6bdd8e84f1e0c28ea7fea521/L0KzQYm3VcI6N5d9R91yc4Pzfri0kPFqdqVniud8aD3zcbr1lPlvb153fdY2cHHsfn68gsBlamI7TtcBYnW8RHA7UMg4PWY1SKMAMke5QoW3U8g6PGY2RuJ3Zx==/kisspng-paintbrush-painting-red-pain-5b0db166e6be94.4087550015276240389451.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    border: none;
+  }
+  .btn-blue-brush {
+    background-image: url('https://png2.cleanpng.com/sh/098e4282483959bd06c425b3c05c7838/L0KzQYm3V8E5N6JrfpH0aYP2gLBuTfJtfZYyiNNyboTlgsb6iL1jdKZqReJqaX73PcT7kv9sbV46eqZvMXHlQ7a8gsI1QV88SKcEMUS4Q4K8U8E6OWE9S6cENEC8PsH1h5==/kisspng-blue-paintbrush-blue-paint-stroke-5b4f1ab3e5b249.7059145315319108359409.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    border: none;
+  }
+  .btn-black-brush {
+    background-image: url('https://png2.cleanpng.com/sh/be05b8f152c83e9bdc8d5eac9e727f5b/L0KzQYm3VcIxN5htgJH0aYP2gLBuTfJtaZRwRdN3ZD36eLr7hb1qdpwyeuRAc3iwgLLwjwRjeqZ4gJ9CYYTogrT2jP9zNaFmRadrMEG5cYjsVBNjO5U1RqQ5MUG7RYq4UcUzPmk2UaYANEW0QIm1kP5o/kisspng-black-and-white-ink-brush-paintbrush-watercolor-pa-5b016a7e7cb3d0.2011859115268194545108.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    border: none;
+  }
+  .btn-white-brush {
+    background-image: url('https://png2.cleanpng.com/sh/0eec754f275fa636d53badccb5b9d505/L0KzQYm3V8AyN5Zuf5H0aYP2gLBuTfRzaahuhtk2cHHsfsXpkwV0cF46eqUDYkW4RbaBUcYyOF81UacAM0S3RYK8U8A1PGQ1UaUENUC5PsH1h5==/kisspng-drawing-paintbrush-5b38b555e81610.0955344515304430939506.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    border: none;
+  }
+  /* .btn-brush-size-small {
+    background-image: url('https://png2.cleanpng.com/sh/55de044159d5bb7ed00829b43d867ab6/L0KzQYm3UsIxN5RBfZH0aYP2gLBuTgBicZ95Rdl4bHSwdLFAjvxwaZUyf9H1ZHXxPbjzigR1baMyiNNyboSwRbKBg8Y3PWE8fdMEOUKxSIW8VMkzPGg2TaMEMUWzRoi5VcE5QF91htk=/kisspng-paint-gold-download-golden-glitter-paint-5a8c66507ea992.8454924715191506725188.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4rem;
+
+}
+  .btn-brush-size-medium {
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4rem;
+  }
+  .btn-brush-size-large {
+    background-image: url('https://png2.cleanpng.com/sh/f45858cc3fedc39c36d69b53143bf189/L0KzQYm3UcI3N6J2iZH0aYP2gLBuTfJzfaRtReJqaX73Pbj2jPQubKNmj9t3Zz3qf73rTgBicZ95RadqNnKzdYKChPZnO2I3RqUCOUe2RYWBUcUyPmo7TaY5MUm0R4S1kP5o/kisspng-brush-paint-gold-drawing-gold-paint-5a6b0e19dff312.3797354815169654019173.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 6rem;
+    height: 2rem;
+  } */
